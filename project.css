@@ -1,0 +1,61 @@
+h1{
+    background-color: blue;
+    color :white;
+    margin-bottom: 0px;
+}
+li{
+    list-style-type: none;
+    background-color:#1e90ff;
+}
+ul{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows:50px 25px 50px 200px 50px 50px 50px 25px;
+    grid-template-areas: 
+        "i i"
+        "a b"
+        "c c"
+        "z z"
+        "e e"
+        "d d"
+        "f f"
+        "g h"
+    ;
+    text-align: center;
+    grid-gap:1px;
+}
+#kdo{
+    grid-area: a;
+}
+#ido{
+    grid-area: b;
+}
+#Tnk{
+    grid-area: c;
+    font-size:25px;
+}
+#min{
+    grid-area: d;
+    font-size:25px;
+}
+#max{
+    grid-area: e;
+    font-size:25px;
+}
+#sit{
+    grid-area: f;
+    font-size:25px;
+}
+#hus{
+    grid-area: g;
+}
+#huk{
+    grid-area: h;
+}
+#tos{
+    grid-area: i;
+    font-size:30px;
+}
+#Im1{
+    grid-area: z;
+}

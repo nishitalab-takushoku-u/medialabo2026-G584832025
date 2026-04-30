@@ -1,0 +1,56 @@
+.zentai{
+    display:grid;
+    width: 1024px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap:10px;
+    grid-template-areas:
+        "a d"
+        "b d"
+        "c d"
+    ;
+}
+.zentai > #tema{
+    grid-area: a;
+}
+.zentai > #game{
+    grid-area: c;
+}
+.zentai > #Pj{
+    grid-area: b;
+}
+.zentai >#zyugyou{
+    grid-area: d;
+}
+.zentai div{
+    background-color: #00bfff;
+}
+.zentai p {
+    padding-left:10px;
+
+    margin: 5px;
+}
+h2{
+    background: linear-gradient(90deg in oklab, #1e90ff,#00bfff);
+
+    padding:5px;
+    margin: 0px;
+}
+h3{
+    padding-left:5px;
+    margin-bottom: 0px;
+}
+a:link{
+    color :darkblue;
+}
+a:visited{
+    color:royalblue;
+}
+a:hover{
+    text-decoration:none;
+}
+h1{
+    background-color: blue;
+    color :white;
+    margin-bottom: 0px;
+}
