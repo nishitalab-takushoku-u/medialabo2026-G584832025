@@ -2,26 +2,14 @@
     display:grid;
     width: 1024px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
     grid-gap:10px;
-    grid-template-areas:
-        "a d"
-        "b d"
-        "c d"
-    ;
+
 }
-.zentai > #tema{
-    grid-area: a;
+.zyugyou{
+    background-color: #00bfff;
 }
-.zentai > #game{
-    grid-area: c;
-}
-.zentai > #Pj{
-    grid-area: b;
-}
-.zentai >#zyugyou{
-    grid-area: d;
-}
+
 .zentai div{
     background-color: #00bfff;
 }
