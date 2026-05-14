@@ -28,18 +28,21 @@ function hantei() {
   // ここから: 正解判定する
   // 　　　　  正解/不正解のときのメッセージを表示する
   let result =document.querySelector('p#result'); 
-  if(kaisu>2 || run===1){
+  if(kaisu>3 || run===1){
         result.textContent="答えは"+kotae+"でした.すでにゲームは終わっています";
   }
   else if(yoso === kotae ){
     result.textContent="正解です。おめでとう!";
     run=1;
-  }else if(yoso>kotae){
+  }else if(yoso>kotae &&3>kaisu){
     result.textContent="まちがい．答えはもっと小さいですよ";
-  }else{
+  }else if(3>kaisu){
 
     result.textContent="まちがい．答えはもっと大きいですよ";
+  }else{
+    result.textContent="答えは"+kotae+"でした.すでにゲームは終わっています"; 
   }
+  
 
   // ここまで: 正解判定する
 }
