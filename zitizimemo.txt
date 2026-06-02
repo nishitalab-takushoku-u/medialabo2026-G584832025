@@ -17,7 +17,7 @@
 
 
 
-        <label for="Toshimei">都市名:</label>
+    <label for="Toshimei">都市名:</label>
     <select name="Toshimei" id="Toshimei">
       <option value="">都市名を入力してください</option>
       <option value="360630">カイロ</option>

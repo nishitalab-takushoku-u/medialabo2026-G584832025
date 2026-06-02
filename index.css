@@ -1,6 +1,5 @@
 .zentai{
     display:grid;
-    width: 1024px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 600px 600px;
     grid-gap:10px;
@@ -27,6 +26,8 @@ h2{
 h3{
     padding-left:5px;
     margin-bottom: 0px;
+    margin-top: 0px;
+    background: linear-gradient(90deg in oklab, #0eb0ee,#00bfff);
 }
 a:link{
     color :darkblue;
